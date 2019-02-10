@@ -38,11 +38,11 @@
 - HOF are the functions which accept functions as a arguments or return functions.
 
 
-### CONST is used in JavaScript which is used to enforce Immutability on variables.
+#### CONST is used in JavaScript which is used to enforce Immutability on variables.
 
-### OBJECT.ASSIGN() is a key to create objects in JavaScript
+#### OBJECT.ASSIGN() is a key to create objects in JavaScript
 
-### CONCAT() is used to append anything in array in FP, generally we use push() which mutates the original array
+#### CONCAT() is used to append anything in array in FP, generally we use push() which mutates the original array
 	
 ```
  a = [1, 2]
