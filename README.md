@@ -98,6 +98,7 @@ If we call Array.reduce() on any array, It will allow us to transform that array
 ```
 const a = [1, 2, 3]
 const sum = a.reduce((partial, v) => partial + v, 0)
+<!-- // sum = 6 -->
 ```
 	
 ## RECURSION:-
@@ -123,8 +124,8 @@ obj.doSomething()
 .doSomethingElse()
 ```
 
-- or, also very widely used, by passing a function execution into a function:
+- or, also very widely used, by passing a function execution into a function
 
 ```
 obj.doSomething(doThis())
-``
+``` 
