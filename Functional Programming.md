@@ -8,9 +8,9 @@
 
 ## Benifits:-
 
-	-Reduce occurance of bugs in program
-	-Easy to execute and debug
-	-Allow Parallel processing
+	- Reduce occurance of bugs in program
+	- Easy to execute and debug
+	- Allow Parallel processing
 	
 ## Limitations:-
 	-not easy and difficult to understand for beginner
