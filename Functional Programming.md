@@ -1,39 +1,41 @@
 
 # Functional Programming:-
 
--In computer science, functional programming is a programming paradigm, a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+- In computer science, functional programming is a programming paradigm, a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
 
--It uses pure functions, where pure functions are the functions that act only on their parameters and return the value obtained by performing the operations on parameter
+- It uses pure functions, where pure functions are the functions that act only on their parameters and return the value obtained by performing the operations on parameter
 
 
 ## Benifits:-
 
-	- Reduce occurance of bugs in program 
-	- Easy to execute and debug
-	- Allow Parallel processing
+- Reduce occurance of bugs in program 
+
+- Easy to execute and debug
+
+- Allow Parallel processing
 	
+
 ## Limitations:-
-	-not easy and difficult to understand for beginner
 
+- Not easy and difficult to understand for beginner
 
--Use Immutable data:-
-	Easily able to create data structures insted of modifying ones which is already exist
+- Use Immutable data
 
-
-
+- Easily able to create data structures insted of modifying ones which is already exist
 
 
 
 
 # Functional Programming in Javascript:-
 
-	-We can assign functions to vaiables
+- We can assign functions to vaiables
 
-	-and they can be used in objects, arrays and as a argument to other functions and can be returned by functions
+- And they can be used in objects, arrays and as a argument to other functions and can be returned by functions
+
 
 ## Higher Order Functions:-
 	
-	- HOF are the functions which accept functions as a arguments or return functions.
+- HOF are the functions which accept functions as a arguments or return functions.
 
 
 ### CONST is used in JavaScript which is used to enforce Immutability on variables.
