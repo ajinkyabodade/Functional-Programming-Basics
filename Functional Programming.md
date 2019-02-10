@@ -8,7 +8,7 @@
 
 ## Benifits:-
 
-	- Reduce occurance of bugs in program
+	- Reduce occurance of bugs in program a
 	- Easy to execute and debug
 	- Allow Parallel processing
 	
