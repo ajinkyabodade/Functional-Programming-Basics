@@ -23,6 +23,8 @@
 
 - Not easy and difficult to understand for beginner
 
+- Writing pure functions are easy but combining them with rest of application and I/O operations is the difficult task. 
+
 
 
 
@@ -45,9 +47,9 @@
 #### CONCAT() is used to append anything in array in FP, generally we use push() which mutates the original array
 	
 ```
- a = [1, 2]
- b = [1, 2].concat(3)
- b = [1, 2, 3]
+a = [1, 2]
+b = [1, 2].concat(3)
+b = [1, 2, 3]
 ```
 
 ### FILTER() used  for removing an item from an array: instead of using pop() and splice(), which modify the original array
@@ -78,7 +80,7 @@ Functions in particular change the data by returning new copies of data.
 
 ## Following are the functions which are used to chnage the data
 
-### ARRAY.MAP():-
+#### ARRAY.MAP():-
 
 If we call Array.map() on any array, It will crete an new array which will contain the result of operation performed in the original array.
 
@@ -89,14 +91,41 @@ const b = a.map((v, k) => v * k)
 
 ```
 
-### ARRAY.REDUCE():-
+#### ARRAY.REDUCE():-
 
 If we call Array.reduce() on any array, It will allow us to transform that array on anything else, including a function, a boolean, an object.
 
 ```
 const a = [1, 2, 3]
 const sum = a.reduce((partial, v) => partial + v, 0)
-/ sum = 6
-```	
+<!-- // sum = 6 -->
+```
 	
+## RECURSION:-
 
+Recursion is a key topic in functional programming. when a function calls itself, it’s called a recursive function.
+
+The classic example of recursion is the Fibonacci sequence (N = (N-1 + N-2)) calculation, here in its 2^N totally inefficient (but nice to read) solution:
+
+```
+var f = (n) => n <= 1 ? 1 : f(n-1) + f(n-2)
+```
+
+## COMPOSITION:-
+
+Composition is another key topic of Functional Programming, a good reason to put it into the “key topics” list.
+
+***Composition is how we generate a higher order function, by combining simpler functions***
+
+- common way to compose functions in plain JavaScript is to chain them:
+
+```
+obj.doSomething()
+.doSomethingElse()
+```
+
+- or, also very widely used, by passing a function execution into a function
+
+```
+obj.doSomething(doThis())
+``` 
