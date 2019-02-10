@@ -7,7 +7,7 @@
 
 - Use Immutable data : An immutable data is an data whose state cannot be modified after it is created. 
 
-- Easily able to create data structures insted of modifying ones which is already exist
+- Easily able to create data structures instead of modifying ones which is already exist
 
 
 ## Benifits:-
@@ -82,7 +82,7 @@ Functions in particular change the data by returning new copies of data.
 
 #### ARRAY.MAP():-
 
-If we call Array.map() on any array, It will crete an new array which will contain the result of operation performed in the original array.
+If we call Array.map() on any array, It will create an new array which will contain the result of operation performed in the original array.
 
 ```
 const a = [1, 2, 3]
